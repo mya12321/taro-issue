@@ -1,5 +1,5 @@
 import { useState, useEffect } from '@tarojs/taro';
-import { View, Swiper, SwiperItem, Image } from '@tarojs/components';
+import { View, Swiper, SwiperItem, Image, Text } from '@tarojs/components';
 import { AtGrid } from 'taro-ui';
 
 import style from './index.module.less';
@@ -77,6 +77,7 @@ export default function () {
         hasBorder={false}
         columnNum={4}
       />
+      <Text>测试</Text>
     </View>
   )
 }
