@@ -1,0 +1,14 @@
+{
+  "extends": "stylelint-config-taro-rn",
+  "plugins": ["stylelint-taro-rn"],
+  "rules": {
+    "at-rule-no-unknown": null,
+    "color-hex-case": null,
+    "block-closing-brace-newline-after": null,
+    "at-rule-empty-line-before":null,
+    "number-no-trailing-zeros": null,
+    "no-empty-source": null,
+    "unit-case": null,
+    "taro-rn/css-property-no-unknown": null
+  }
+}

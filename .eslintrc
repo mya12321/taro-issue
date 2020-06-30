@@ -1,0 +1,16 @@
+{
+  "extends": ["taro"],
+  "rules": {
+    "no-unused-vars": ["error", { "varsIgnorePattern": "Taro" }],
+    "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx", ".tsx"] }],
+    "class-methods-use-this": "off",
+    "prefer-rest-params": "off",
+    "arrow-body-style": "warn",
+    "taro/custom-component-children": "off",
+    "indent": ["error", 2],
+    "quotes": ["error", "single"],
+    "jsx-quotes": ["error", "prefer-double"],
+    "react/react-in-jsx-scope": "off"
+  },
+  "parser": "babel-eslint"
+}
