@@ -28,10 +28,6 @@ const config = {
       }]
     ]
   },
-  plugins: [
-    '@tarojs/plugin-less',
-    '@tarojs/plugin-sass',
-  ],
   defineConstants: {
   },
   mini: {
